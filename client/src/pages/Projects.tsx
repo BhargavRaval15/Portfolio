@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { motion } from 'framer-motion';
-import { FaGithub, FaExternalLinkAlt, FaSearch, FaCode, FaTags, FaListUl } from 'react-icons/fa';
+import { FaGithub, FaExternalLinkAlt, FaSearch, FaCode, FaListUl } from 'react-icons/fa';
 
 interface Project {
   id: number;

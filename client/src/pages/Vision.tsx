@@ -254,7 +254,12 @@ const Vision: React.FC = () => {
         </motion.section>
 
         {/* Achievements Section */}
-        <motion.section className="mb-20">
+        <motion.section 
+          className="mb-20"
+          initial="hidden"
+          animate="visible"
+          variants={fadeIn}
+        >
           <div className="text-center mb-16">
             <motion.h2 
               initial={{ opacity: 0, y: 20 }}
